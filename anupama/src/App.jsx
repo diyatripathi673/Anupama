@@ -3,10 +3,10 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Middle from "./Components/Middle";
 import Service from "./Components/Service";
-import Reviews from "./Components/Reviews";
+// import Reviews from "./Components/Reviews";
 
 import taxiImage from "./assets/taxi.png";
-import busImage from "./assets/bus.png";
+// import busImage from "./assets/bus.png";
 
 const App = () => {
   return (
@@ -21,14 +21,14 @@ const App = () => {
         heading="Taxi & Cab service"
         image={taxiImage}
       />
-      <Service
+      {/* <Service
         key="service2"
         id="bus-ticket-booking"
         className="Second"
         heading="Bus ticket Booking"
         image={busImage}
-      />
-      <Reviews />
+      /> */}
+      {/* <Reviews /> */}
     </div>
   );
 };
