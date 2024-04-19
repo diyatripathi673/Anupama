@@ -1,0 +1,39 @@
+
+.container1{
+    margin-bottom: 10%;
+  
+}
+.img{
+    width: 30%;
+    height: 50%;
+    float: left;
+    padding:5% 0 0  10%;
+}
+
+.text{
+    padding:5% 0 0  35%;
+    margin-right:20% ;
+
+
+    >h1{
+        padding:5px 0;
+    }
+    >p{
+       line-height: 1.5;
+    }
+}
+
+p:nth-child(1){
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.img{
+    margin-top: 50px;
+    height: 30vh;
+    width: 30vw;
+}
+
+}

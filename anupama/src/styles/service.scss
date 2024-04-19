@@ -1,0 +1,247 @@
+.first {
+  background-color:#f9f6e2;
+  width: 100vw;
+
+  .section {
+    margin: 0% 10% 0 10%;
+    padding: 3% 3% 0 0;
+  }
+  p:nth-child(4) {
+    padding-top: 2%;
+    line-height: 22px;
+    margin-left: -7%;
+  }
+  .dotted {
+    margin-top: 10px;
+    border: 1px dotted red;
+  }
+
+  .taxiImg {
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin: -40px 10% 0 0;
+    display: block;
+
+    
+  }
+
+  .heading {
+    padding: 20px 0 10px 0;
+  }
+  .btn {
+    border: 1px solid #16161622;;
+    padding: 0.5rem 1rem;
+    background-color:#3cd26b;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .section2 {
+    padding: 5% 0 0 10%;
+
+    > p {
+      padding-top: 10px;
+    }
+  }
+ 
+
+  .section3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2% 5% 0 0;
+  }
+  .section3 > .row {
+    width: 500px;
+    font-size: 12px;
+   
+    word-spacing: 2px;
+    
+    >p{
+      line-height: 1.5;
+    }
+    > h3 {
+      padding: 10px 0 10px 0;
+      font-weight: bold;
+      color:#242638;
+      text-transform: uppercase;
+      
+    }
+  }
+  .button {
+    margin: 5% 0 0 0;
+  }
+  .btn2 {
+    background-color: #292b46;
+    border: 1px solid #16161622;;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .section4 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5%;
+  }
+  .section4 > .row {
+    width: 400px;
+    background-color:#ec7425;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    >p{
+        font-size: 10px;
+    }
+  }
+
+  .book {
+    align-items: center;
+    text-align: center;
+    background-color: #292b46;
+    color: white;
+    padding: 2% 0 3% 0;
+    margin: auto 15% auto 15%;
+  }
+}
+
+.Second {
+  background-color:white;
+  width: 100vw;
+
+  .section {
+    margin: 0% 10% 0 10%;
+    padding: 3% 3% 0 0;
+  }
+  p:nth-child(4) {
+    padding-top: 5%;
+    line-height: 22px;
+    margin-left: -7%;
+  }
+  .dotted {
+    margin-top: 10px;
+    border: 1px dotted red;
+  }
+
+ s
+
+  .heading {
+    padding: 20px 0 10px 0;
+  }
+  .btn {
+    border: 1px solid #16161622;;
+    padding: 0.5rem 2rem;
+    background-color:#3cd26b;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .section2 {
+    padding: 5% 0 0 10%;
+
+    > p {
+      padding-top: 10px;
+    }
+  }
+ 
+
+  .section3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2% 5% 0 0;
+    
+  }
+  .section3 > .row {
+    width: 500px;
+    font-size: 12px;
+    
+    > h3 {
+      padding: 10px 0 10px 0;
+      font-weight: bold;
+      color:#292b46;
+      
+    }
+    
+   
+  }
+  .button {
+    display: none;
+  }
+  .btn2 {
+    background-color: #292b46;
+    border: 1px solid #16161622;;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+  .section4 {
+    display: none;
+  }
+
+  .book {
+    align-items: center;
+    text-align: center;
+    background-color: #292b46;
+    color: white;
+    padding: 2% 0 3% 0;
+    margin:  30px 15% auto 15%;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+  
+    .taxiImg {
+      width: 100%; /* Set widFth to 100% for smaller screens */
+      height: auto; /* Maintain aspects ratio */
+      margin: 0 auto; /* Center the image */
+      display: block; /* Ensure the image is displayed as a block element */
+      max-width: 100%; /* Ensure image doesn't exceed the container's width */
+    }
+
+    
+    .section {
+      margin: 0% 10% 10% 10%;
+      padding: 3% 3% 0 0;
+      >p{
+        margin-right: 60%;
+      }
+    }
+   .section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10px;
+    flex-direction: column;
+    padding-left: 20%;
+    row-gap: 10px;
+    .row{
+      
+    }
+   }
+
+  }

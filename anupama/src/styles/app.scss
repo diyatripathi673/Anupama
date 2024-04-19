@@ -1,0 +1,37 @@
+@import "statics";
+@import "header";
+@import "home";
+@import "middle";
+@import "service";
+@import "review";
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+.disablebtn{
+    background-color: rgb(237,237,237);
+    cursor: not-allowed;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: white;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
